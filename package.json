@@ -1,0 +1,29 @@
+{
+  "name": "multi-threads",
+  "version": "1.0.3",
+  "description": "Introducing NodeJS Multithreading Library - a high-performance, lightweight library designed to make multithreading in NodeJS simple and easy. With this library, you can take advantage of the power of multithreading to improve the performance of your NodeJS applications. Whether you're working on a complex server-side application or just need to run multiple tasks simultaneously, this library has got you covered.  The library utilizes JavaScript's built-in Worker threads to create multiple threads, each with its own event loop and memory heap. This means you can run multiple independent tasks in parallel without affecting the main thread and blocking the event loop.  The library is easy to use and comes with a simple API that makes it easy to create and manage worker threads. It also includes features such as error handling and communication between threads, making it a complete solution for multithreading in NodeJS.  With NodeJS Multithreading Library, you can easily speed up your applications, improve their responsiveness, and make them more scalable. So, why wait? Start taking advantage of multithreading in NodeJS today with this library!",
+  "main": "./lib/index.js",
+  "type": "module",
+  "bin": {
+    "thread-js": "./bin/index.js"
+  },
+  "preferGlobal": false,
+  "scripts": {
+    "test": "node ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pallob-Gain/multi-threads.git"
+  },
+  "keywords": [
+    "threads",
+    "Multithreading",
+    "thread-js"
+  ],
+  "author": "Pallob Kumar Gain",
+  "license": "MIT",
+  "bugs": {
+    "url": "git+https://github.com/Pallob-Gain/multi-threads/issues"
+  },
+  "homepage": "git+https://github.com/Pallob-Gain/multi-threads#readme"
+}
